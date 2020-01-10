@@ -1,9 +1,9 @@
 # Issues when using BuckleScript generators in a monorepo
 
 This repo illustrates the problem of BuckleScript generators not being
-"transitive", which kind of breaks the point of having a monorepo setup,
+"transitive", which kind of defeats the purpose of having a monorepo setup,
 where `bsb -make-world` is supposed to fully build an application and its
-dependencies completely.
+dependencies completely, picking up the latest changes.
 
 ### To reproduce
 
