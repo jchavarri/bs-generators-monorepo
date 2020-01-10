@@ -1,0 +1,11 @@
+{
+  "name": "bs-generators-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": {
+    "packages": [
+      "app",
+      "atd-lib"
+    ]
+  }
+}

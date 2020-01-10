@@ -1,0 +1,18 @@
+{
+  "name": "atd-lib",
+  "version": "0.0.1",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "esy && bsb -make-world",
+    "watch": "esy && bsb -make-world -w"
+  },
+  "devDependencies": {
+    "bs-platform": ">= 7.0.0"
+  },
+  "peerDependencies": {
+    "bs-platform": ">= 7.0.0"
+  },
+  "dependencies": {
+    "@ahrefs/bs-atdgen-codec-runtime": "^2.0.0"
+  }
+}
